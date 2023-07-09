@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    transition: all ease 0.3s;
+}
+
+.home{
+    background: linear-gradient(white, #2799f1a4);
+    background: -moz-linear-gradient(white, #2799f1a4);
+    min-height: 90vh;
+    background: -o-linear-gradient();
+    background: -webkit-linear-gradient();
+}

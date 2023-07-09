@@ -1,0 +1,17 @@
+{% extends "layouts/layout.html" %}
+
+{% block content %}
+<section class="home">
+    <section class="container mx-auto font-bold h-full">
+        <div class="text-center space-y-3 flex flex-col items-center justify-center md:w-[80%] md:h-[80vh] h-[50vh] md:mx-auto">
+            <p class="text-5xl py-6">Welcome to <a href="/"  class="text-Red">VOTE</a> platform</p>
+            <p class="text-3xl">
+                <i class="fa fa-quote-left"></i>
+                <i class="text-2xl">Every election is determined by the people who show up</i>
+                <i class="fa fa-quote-right"></i>
+            </p>
+            <a href="/vote" class="w-48 px-6 py-2 bg-Whitish text-Blue rounded-full my-2 hover:bg-Blue hover:text-Whitish">Vote</a>
+        </div>
+    </section>
+</section>
+{% endblock %}
