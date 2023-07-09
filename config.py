@@ -1,6 +1,6 @@
 import os
 
-os.environ['SQLALCHEMY_DATABASE_URI'] = 'postgres://postgres:Liukangs240@localhost:5432/voting_system'
+os.environ['SQLALCHEMY_DATABASE_URI'] = 'postgres://lyucapdd:bG9XZ2FWhOTS67_8UkBw4l8MsgIDY3Yu@mahmud.db.elephantsql.com/lyucapdd'
 
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 os.environ['SECRETE_KEY'] = "plBbjQJl699AIc6w"
